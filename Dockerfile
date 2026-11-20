@@ -20,4 +20,4 @@ RUN reflex init && reflex export --frontend-only --no-zip
 
 EXPOSE 10000
 
-CMD ["reflex", "run", "--env", "prod", "--frontend-host", "0.0.0.0", "--frontend-port", "10000"]
+CMD ["reflex", "run", "--env", "prod", "--backend-host", "0.0.0.0", "--frontend-port", "10000"]
